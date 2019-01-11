@@ -1,0 +1,121 @@
+@media only screen and (max-width: 991px){
+    .work__list li:last-child{
+        padding-right: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+    .work__list {
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .work__list li{
+        padding-top: 10px;
+        
+    }
+    #contact{
+        background: linear-gradient(to bottom, #f2f2f2 50%, #e4e4e4 40%) !important;
+        padding: 0px;
+    }
+    #contact .location{
+        /* margin: 0 auto; */
+        margin: 10% auto 0;
+    }
+    #contact .location p{
+        font-size: 18px;
+    }
+    #contact .location__icon{
+        margin-top: 5px;
+    }
+    #contact .location__icon i{
+        padding-right: 18px;
+    }
+    #contact .data-input{
+        padding-top: 30%;
+        text-align: center;
+    }
+    #contact .data-input input{
+        width: 100%;
+    }
+    #contact .data-input textarea{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    #contact input[type="text"]{
+        margin-right: 0;
+    }
+    #contact a.btn-2{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+}
+
+@media only screen and (max-width: 575px){
+    
+    .work .work__portfolio img{
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 485px){
+    .card h3{
+        font-size: 22px;
+        line-height: 1.5em;
+    }
+    .card  .content__line{
+        margin: 13px auto !important; 
+    }
+    a.btn-2{
+        font-size: 18px;
+        line-height: 1em;
+        width: 140px;
+        margin: 35px auto 0;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .about .content__text{
+        font-size: 18px;
+    }
+    .choose .content__text{
+        font-size: 18px;
+    }
+    .get-touch .content__text{
+        font-size: 18px;
+    }
+    .footer img{
+        width: 250px;
+    }
+    .footer .footer__text{
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width: 360px){
+    a.btn-2{
+        width: 120px; 
+        margin: 23px auto 0; 
+    }
+}
+@media only screen and (max-width: 320px){
+    a.btn-2{
+        width: 115px; 
+        margin: 15px auto 0; 
+    }
+}
+
+
+@media only screen and (max-width: 330px){
+    
+.logo-imeges{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+ }
+}
+

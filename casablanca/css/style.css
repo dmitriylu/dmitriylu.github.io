@@ -1,0 +1,773 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+        /* ----------------
+        reset css-end
+        ------------------------------ */
+body{
+    font-family: 'ambleregular';
+	font-size: 16px;
+	color: #222222;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'big_johnregular';
+    text-transform: uppercase;
+}
+h2{
+  font-size: 30px;
+  line-height: 3em;
+  text-align: center;
+}
+h3{
+  font-size: 24px;
+  line-height: 2em;
+  text-align: center;
+}
+p{
+  font-family: 'amblelight';
+  line-height: 2em;
+}
+a{
+  text-decoration: none;
+  color: #222222;
+}
+
+/* ---------HEADER-------------- */
+.header{
+	background: url('../img/macbook_background.png') no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #ffffff;
+  width: 100%;
+  min-height: 900px;
+}
+	/* ------------HEAD NAV------------------- */
+
+  #menuToggle
+  {
+    display: block;
+    position: fixed;
+    top: 60px;
+    left: 50px;
+    
+    z-index: 1;
+    
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  
+  #menuToggle input
+  {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    
+    cursor: pointer;
+    
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
+    
+    -webkit-touch-callout: none;
+  }
+  
+  /*
+   * Just a quick hamburger
+   */
+  #menuToggle span
+  {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    
+    background: #db5107;
+    border-radius: 3px;
+    
+    z-index: 1;
+    
+    transform-origin: 4px 0px;
+    
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+  }
+  
+  #menuToggle span:first-child
+  {
+    transform-origin: 0% 0%;
+  }
+  
+  #menuToggle span:nth-last-child(2)
+  {
+    transform-origin: 0% 100%;
+  }
+  
+  /* 
+   * Transform all the slices of hamburger
+   * into a crossmark.
+   */
+  #menuToggle input:checked ~ span
+  {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    
+  }
+  
+  /*
+   * But let's hide the middle one.
+   */
+  #menuToggle input:checked ~ span:nth-last-child(3)
+  {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+  
+  /*
+   * Ohyeah and the last one should go the other direction
+   */
+  #menuToggle input:checked ~ span:nth-last-child(2)
+  {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+  
+  /*
+   * Make this absolute positioned
+   * at the top left of the screen
+   */
+  #menu
+  {
+    position: absolute;
+    /* width: 300px; */
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    background: #222222;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+    
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  }
+  #menu a{
+    color: #dd844a;
+    text-decoration: none;
+  }
+  #menu a:hover{
+    color: #ffffff;
+  }
+  
+  #menu li
+  {
+    padding: 10px 0;
+    font-size: 40px;
+  }
+  
+  /*
+   * And let's slide it in from the left
+   */
+  #menuToggle input:checked ~ ul
+  {
+    transform: none;
+  }
+  
+	/* ------------HEAD NAV--END------------------- */
+
+
+.header__title{
+	font-size: 48px;
+	line-height: 2.7em;
+  margin-top: 200px;
+  text-align: center;
+}
+.header__line span{
+	background: #ffffff;
+  width: 90px;
+  height: 2px;
+  display: block;
+  text-align: center;
+  margin: 0 auto 45px;
+    
+}
+
+
+.header__text{
+	font-size: 22px;
+	line-height: 1.7em;
+	text-align: center;
+  width: 630px;
+  margin: 0 auto 250px;
+}
+.header__icon{
+	margin-bottom: 35px;
+}
+header div .col-12{
+	display: flex;
+	justify-content: center;
+}
+/* @media only screen */
+/* @media only screen and (max-width: 767px){
+	.header__title{
+		font-size: 35px;
+  }
+  .header__text{
+    width: 100%;
+  }
+} */
+
+
+
+@media only screen and (max-width: 767px){
+	.header__title{
+		font-size: 25px;
+	    line-height: 2em;
+		text-transform: uppercase;
+		margin-top: 100px;
+	}
+   .header__text{
+    margin-bottom: 160px;
+    width: 100%;
+  }
+
+} 
+
+@media only screen and (max-width: 575px){
+	.header__title{
+		font-size: 30px;
+		text-align: center;
+		
+	}
+}
+
+@media only screen and (max-width: 400px){
+	.intro .content__text{
+		font-size: 18px;
+
+		
+	}
+}
+/* ---------HEADER-END-------------- */
+
+
+
+/* ---------INTRO-------------- */
+.intro{
+  width: 100%;
+  max-height: 500px;
+  padding: 0 0 115px;
+}
+.content{
+  margin: 0 auto;
+}
+.content__title{
+  padding: 110px 0 0;
+}
+.content__line{
+  height: 1px;
+    width: 100px;
+    background: #222222;
+    margin: 55px 0 75px;
+    display: block;
+    margin: 35px auto 50px;
+}
+.content__text{
+  font-size: 22px;
+  line-height: 1.5em;
+  text-align: center;
+  max-width: 745px;
+}
+
+
+/* --------INTRO-END------------- */
+  /*-------- CREATIV ------------*/
+.creativ{
+  background: url(../img/macbook.png) no-repeat center center;
+  background-size: cover;
+  width: 100%; 
+  height: 500px;
+  overflow: hidden;
+}
+
+.botton{
+  border: 3px solid #ffffff;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'amblebold';
+  text-decoration: none;
+  display: block;
+  max-width: 424px;
+  padding: 22px 0;
+  text-align: center;
+  margin: 200px auto;
+  transition: all 0.3s ease;
+}
+.botton:hover{
+  background: #db5107;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0 0 2px 2px #323747;
+}
+
+
+
+  /*-------- CREATIV-END------------*/
+
+/* -------------WORK------------ */
+
+.work{
+  width: 100%;;
+  padding: 0 0 80px;
+}
+
+
+.work__list{
+  display: flex;
+  justify-content: center;
+  font-family: 'slim_joeregular';
+  font-size: 18px;
+  margin-bottom: 85px;
+  text-align: center;
+}
+.work__list li{
+  padding-right: 35px;
+  display: block;
+}
+.work__list li:hover,
+.active
+{
+  font-family: 'big_johnregular';
+}
+
+.work__portfolio .col-md-4{
+  padding-bottom: 15px;
+}
+.img-wrapper{
+  position: relative;
+  overflow: hidden;
+} 
+.work__portfolio img{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.discr{
+  position: absolute;
+   top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.75);
+    border: 10px solid #000;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+    transition: all 1s;
+    opacity: 0;
+    transform: scale(0) rotate(90deg);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mobile{
+  font-family: 'big_johnregular';
+  font-size: 18px;
+  line-height: 1.5em;
+  padding-bottom: 5px;
+}
+ .gmeil{
+  font-family: 'ambleregular';
+  font-size: 24px;
+  line-height: 2em;
+}
+.line-3{
+  height: 1px;
+    width: 50px;
+    background: #d87843;
+    display: inline-block;
+    margin: 20px auto;
+}
+.img-wrapper:hover .discr{
+  opacity: 1;
+  transform: scale(1) rotate(0deg); 
+  border-radius: 0; 
+}
+a.btn{
+  font-family: 'amblebold';
+  font-size: 24px;
+  border: 3px solid #222222;
+  display: block;
+  max-width: 370px;
+  padding: 10px 0px;
+  text-align: center;
+  line-height: 1.5em;
+  transition: all 0.5s ease;
+  margin: 50px auto 0;
+}
+
+a.btn:hover{
+  background: #222222;
+  color: #ffffff;
+  transition: all 0.5s ease;
+  border-radius: 30px;
+}
+/* -------------WORK-END------------ */
+
+
+/* -------------SECTION-HELP------------ */
+.help{
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  background: url(../img/macbook2.png) no-repeat center center;
+  background-size: cover;
+}
+
+/* -------------SECTION-HELP------------ */
+
+/* --------CLIENTS----------- */
+.clients{
+  width: 100%;
+ min-height: 500px;
+  background: #f4f4f4;
+  
+}
+
+.logo-imeges{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.logo-imeges__clients{
+  padding: 0 0 20px 0;
+  transition: 1s;
+  -webkit-filter: grayscale(1);
+   filter: grayscale(1);
+}
+.logo-imeges__clients:hover{
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+/* --------CLIENTS-END----------- */
+
+
+  /* ------section-about------- */
+
+.about{
+  width: 100%;
+  min-height: 900px;
+}
+.about__people{
+  padding-top: 75px; 
+}
+.about__people .col-6{
+  padding: 0 15px 15px 15px;
+}
+
+.about__people img{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.discr-2{
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.75);
+    border: 7px solid #000;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+    transition: all 1s;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.name{
+  font-family: 'big_johnregular';
+  font-size: 24px;
+  padding: 0 0 5px;
+
+}
+.profession{
+  font-family: 'amblebold';
+  font-size: 18px;
+  line-height: 2em;
+}
+
+.img-wrapper:hover .discr-2{
+  opacity: 1;
+}
+
+.card{
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card .content__line{
+  margin: 20px auto;
+}
+
+.btn-2{
+  font-family: 'amblebold';
+  font-size: 24px;
+  border: 3px solid #222222;
+  display: block;
+  width: 185px;
+  padding: 8px 0px;
+  text-align: center;
+  line-height: 1.5em;
+  transition: all 1s ease;
+  margin: 35px auto 0;
+}
+a.btn-2:hover{
+  background: #222222;
+  color: #ffffff;
+  transition: all 1s ease;
+  border-radius: 30px;
+}
+
+  /* ------section-about-ehd------ */
+
+  /* ------------vidio---------------- */
+
+.video{
+  width: 100%;
+  min-height: 500px; 
+  background: url(../img/video.png) no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+.video__play{
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  margin-top: -32px;
+  margin-right: -32px;
+}
+
+  /*------- ------vidio-end---- ------ */
+  /*================= SECTION-CHOOSE ==================*/
+
+.choose{
+  width: 100%;
+  min-height: 500px; 
+}
+
+    /*================= SECTION-CHOOSE=END ==================*/
+
+      /*================= SECTION-slider ==================*/
+.slider{
+  width: 100%;
+  min-height: 500px;
+  padding: 50px 10px 0;
+
+}
+.owl-carousel .owl-item img {
+  display: inline-block !important;
+}
+.slider__elements{
+  text-align: center;
+}
+
+.slider__title{
+  font-size: 24px;
+  font-family: 'ambleregular';
+  text-transform: capitalize; 
+  padding: 25px 0;
+}
+.slider__text{
+  padding-bottom: 25px;
+}
+
+
+  /*================= SECTION-slider-end ==================*/
+
+  /*================= SECTION-GUOTES ==================*/
+.quotes{
+  width: 100%;
+  min-height: 500px;
+  overflow: hidden;
+  background: url(../img/imac.png) no-repeat center center;
+  background-size: cover;
+}  
+  /*================= SECTION-GUOTES=END ==================*/
+
+
+  /*================= SECTION-GET-TOUCH ==================*/
+  .get-touch{
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  /*================= SECTION-GET-TOUCH=END ==================*/
+
+
+
+
+  /*================= SECTION-CONTACT ==================*/
+.contact{
+  width: 100%;
+  min-height: 500px;
+  padding: 100px 0 0;
+  background: linear-gradient(to right, #f2f2f2 40%, #e4e4e4 40%);
+}
+.location{
+  max-width: 250px;
+}
+.location p{
+  font-size: 22px;
+  text-align: center;
+}
+.location__icon{
+  font-size: 22px;
+  margin-top: 25px;
+  text-align: center;
+}
+.location__icon i{
+  padding-right: 20px;
+}
+
+.data-input{
+  max-width: 750px;
+  text-align: end;
+}
+.data-input input{
+  width: 40%;
+  margin-bottom: 50px;
+}
+.data-input textarea{
+  width: 90%;
+  margin-bottom: 30px;
+}
+.data-input input,
+.data-input textarea{
+  border: 0;
+  border-bottom: 3px solid #afafaf;
+  outline: none;
+  padding: 5px 15px;
+  font-family: 'ambleregular';
+  font-size: 18px;
+  color: #676767;
+  background: transparent;
+}
+.data-input input:hover{
+  background-color: #fcf59d;
+  border-bottom: 3px solid #dd844a;
+}
+.data-input textarea:hover{
+  background-color: #fcf59d;
+  border-bottom: 3px solid #dd844a;
+}  
+.data-input a{
+  margin-right: 0;
+}
+ input[type="text"]{
+    margin-right: 10%;
+}
+  /*================= SECTION-CONTACT=END ==================*/
+
+
+  /*================= SECTION-FOOTER ==================*/
+
+.footer{
+  width: 100%;
+  min-height: 365px;
+  background: #222222;
+}
+.footer__title{
+  padding-top: 100px;
+  text-align: center;
+}
+.footer__text{
+  font-family: 'ambleregular';
+  font-size: 16px;
+  color: #ffffff;
+  padding-top: 60px
+}
+.footer .orange{
+  font-family: 'amblebold';
+  /* color: #9b5b38; */
+  color: #dd844a;
+}
+  /*================= SECTION-FOOTER=END ==================*/
+
+/* ======ARROW-TOP========== */
+.top{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 50px;
+  margin-right: 15px;
+  color: #db5107;
+}
+.top.mPS2id-highlight{
+  display: none;
+}
+/* ======ARROW-TOP-END========== */
+
+
+
+
+
+      
+
+
+
