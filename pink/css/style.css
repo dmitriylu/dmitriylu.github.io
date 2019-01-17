@@ -441,9 +441,11 @@ form{
     position: fixed;
     right: 15px;
     bottom: 15px;
+    transition: 1s ease;
 }
 .top.mPS2id-highlight{
-    display: none;
+    opacity: 0;
+    transition: 1s ease;
   }
 .top::after{
     content: '';
