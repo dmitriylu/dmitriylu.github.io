@@ -12,6 +12,6 @@
 
 [grafica](https://dmitriylu.github.io/grafica/ "my work")
 
-[blackSea](https://dmitriylu.github.io/grafica/ "my work")
+[blackSea](https://dmitriylu.github.io/blackSea/ "my work")
 
-[responsiv](https://dmitriylu.github.io/grafica/ "my work")
+[responsiv](https://dmitriylu.github.io/responsiv/ "my work")
