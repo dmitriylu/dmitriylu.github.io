@@ -1,0 +1,103 @@
+@media only screen and (max-width: 991px){
+    .navbar-brand{
+        display: inline-block;
+    }   
+}
+
+@media only screen and (max-width: 870px){
+    .text-box h2{
+        font-size: 30px;
+    }
+    .black{
+        height: 200px;
+    }   
+}
+
+@media only screen and (max-width: 770px){
+    .header-title h1{
+        font-size: 45px;
+    }   
+}
+
+@media only screen and (max-width: 650px){
+    .text-box h2{
+        font-size: 25px;
+    }
+    .black{
+        height: 150px;
+    }   
+}
+
+@media only screen and (max-width: 540px){
+    .text-box h2{
+        font-size: 20px;
+    }
+    .black{
+        height: 120px;
+    }   
+}
+
+
+
+
+@media only screen and (max-width: 520px){
+    header{
+        min-height: 500px;
+    }
+    .header-title h1{
+        font-size: 35px;
+    }
+    .header a{
+        font-size: 25px;
+    }   
+}
+
+@media only screen and (max-width: 440px){
+    .text-box h2{
+        font-size: 18px;
+    }
+    .black{
+        height: 100px;
+    } 
+    .pink{
+        font-size: 45px;
+    }  
+}
+@media only screen and (max-width: 410px){
+    header{
+        min-height: 450px;
+    }
+    .header-title h1{
+        font-size: 30px;
+    }   
+    .header a{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 395px){
+    .text-box h2{
+        font-size: 15px;
+    }
+    .black{
+        height: 75px;
+    } 
+    .pink{
+        font-size: 35px;
+    }  
+}
+
+@media only screen and (max-width: 355px){
+    header{
+        min-height: 400px;
+    }
+    .header-title h1{
+        font-size: 25px;
+    } 
+    .text-box h2{
+        font-size: 13px;
+    } 
+    .pink{
+        font-size: 30px;
+    }   
+}

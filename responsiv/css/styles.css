@@ -1,0 +1,74 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+/* ==NAV== */
+.navbar-dark .navbar-nav .nav-link{
+    color: #ffffff;
+}
+.navbar-brand{
+    display: none;
+}
+/* ==NAV-END== */
+header{
+    width: 100%;
+    min-height: 580px;
+    background: #17b2c5;
+    display: flex;
+    align-items: center;
+}
+.header-title h1{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 60px;
+}
+.header a{
+    color: #a6d6e0;
+    font-size: 30px;
+    font-weight: 600;
+}
+.header .icon{
+    color: #ffffff;
+    font-size: 40px;
+}
+/* ==HEADER-END== */
+
+/* SECTION-text-box */
+.text-box{
+    width: 100%;
+    min-height: 240px;
+}
+.black{
+    background: #27212c;
+    height: 240px;
+    color: #9887a6;
+}
+.pink{
+    background: #bc3183;
+    color: #fff;
+    font-size: 60px;
+}
+.text-box h2{
+    font-size: 40px;
+}
+.text-box img{
+    width: 100%;
+    height: auto;
+}
+/* section-text-box-END */
+.blazrobar{
+    width: 100%;
+    min-height: 565px;
+    background: #ebebeb;
+    padding: 20px;
+}
+.blazrobar h3{
+    font-size: 30px;
+    line-height: 2em;
+    color: #088ca5;
+}
+.blazrobar p{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.9em;
+}
