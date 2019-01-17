@@ -1,0 +1,95 @@
+
+@media only screen and (max-width:980px){
+    .about__text{
+        max-width: 980px;
+    }
+}
+
+@media only screen and (max-width:830px){
+    .header-top nav{
+        position: absolute;
+        width: 100%;
+        background: #333333eb;
+        top: -100vh;
+        left: 0;
+        height: 100vh;
+        -webkit-transition: 1s ease;
+        -o-transition: 1s ease;
+        transition: 1s ease;
+        display: block;
+        text-align: center;
+        padding: 10px;
+        opacity: 0;
+        -webkit-transform: scale(0) rotate(90deg);
+            -ms-transform: scale(0) rotate(90deg);
+                transform: scale(0) rotate(90deg);  
+    }
+    .header-top nav.active{
+        top: 90px;
+        opacity: 1;
+        -webkit-transition: 1s ease;
+        -o-transition: 1s ease;
+        transition: 1s ease;
+        -webkit-transform: scale(1) rotate(0deg);
+            -ms-transform: scale(1) rotate(0deg);
+                transform: scale(1) rotate(0deg);
+    }
+    .header-top nav a::after{
+        display: none;
+    }
+    .header-top nav a{
+        padding: 25px;
+       display: block;
+       border-bottom: 1px solid rgba(0,0,0,.2);
+    }
+    .header-top nav a:hover{
+        background: #4c97a2;
+    }
+    .hamburger{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .header__title{
+        font-size: 36px;
+    }   
+}
+
+@media only screen and (max-width: 650px){
+    .header__title{
+        font-size: 30px;
+        text-align: center;
+        padding: 0 5px;
+    }   
+}
+
+
+@media only screen and (max-width:450px){
+    .login{
+        width: 300px;
+        height: 300px;
+    }
+    .portfolio__text{
+        margin: 40px 0 45px;
+    }
+    .portfolio__icon{
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        width: 80%;
+    }  
+}
+
+ @media only screen and (max-width: 360px){
+    .about__me img{
+      margin-right: 25px;
+    }
+    .name::after{
+        font-size: 300px;
+    }   
+}
+@media only screen and (max-width: 360px){
+    .portfolio__icon{
+        padding-bottom: 30px;
+    } 
+} 

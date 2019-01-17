@@ -1,0 +1,66 @@
+
+
+
+@font-face {
+    font-family: 'helveticaneuecyrlight';
+    src: url('../fonts/HelveticaLight/helveticalight-webfont.eot');
+    src: url('../fonts/HelveticaLight/helveticalight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/HelveticaLight/helveticalight-webfont.woff2') format('woff2'),
+         url('../fonts/HelveticaLight/helveticalight-webfont.woff') format('woff'),
+         url('../fonts/HelveticaLight/helveticalight-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'helveticaneuecyrbold';
+    src: url('../fonts/HelveticaBold/helveticabold-webfont.eot');
+    src: url('../fonts/HelveticaBold/helveticabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/HelveticaBold/helveticabold-webfont.woff2') format('woff2'),
+         url('../fonts/HelveticaBold/helveticabold-webfont.woff') format('woff'),
+         url('../fonts/HelveticaBold/helveticabold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'HelveticaLTStd-Roman';
+    src: url('../fonts/HelveticaLTStd-Roman/HelveticaLTStd-Roman.eot');
+    src: url('../fonts/HelveticaLTStd-Roman/HelveticaLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/HelveticaLTStd-Roman/HelveticaLTStd-Roman.woff') format('woff'),
+         url('../fonts/HelveticaLTStd-Roman/HelveticaLTStd-Roman.otf') format('otf'),
+         url('../fonts/HelveticaLTStd-Roman/HelveticaLTStd-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'HelveticaLT-Condensed';
+    src: url('../fonts/HelveticaLT-Condensed/HelveticaLT-Condensed.eot');
+    src: url('../fonts/HelveticaLT-Condensed/HelveticaLT-Condensed.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/HelveticaLT-Condensed/HelveticaLT-Condensed.woff') format('woff'),
+         url('../fonts/HelveticaLT-Condensed/HelveticaLT-Condensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cherry_swashregular';
+    src: url('../fonts/CherrySwash/cherryswash-regular-webfont.eot');
+    src: url('../fonts/CherrySwash/cherryswash-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CherrySwash/cherryswash-regular-webfont.woff2') format('woff2'),
+         url('../fonts/CherrySwash/cherryswash-regular-webfont.woff') format('woff'),
+         url('../fonts/CherrySwash/cherryswash-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+  
+/* font-family: 'HelveticaLTStd-Roman'; */
+/* font-family: 'HelveticaLT-Condensed'; */
