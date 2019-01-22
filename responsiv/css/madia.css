@@ -1,8 +1,4 @@
-@media only screen and (max-width: 991px){
-    .navbar-brand{
-        display: inline-block;
-    }   
-}
+
 
 @media only screen and (max-width: 870px){
     .text-box h2{
@@ -10,6 +6,12 @@
     }
     .black{
         height: 200px;
+    }   
+}
+
+@media only screen and (max-width: 767px){
+    .navbar-brand{
+        display: inline-block;
     }   
 }
 
