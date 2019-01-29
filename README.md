@@ -15,3 +15,5 @@
 [blackSea](https://dmitriylu.github.io/blackSea/ "my work")
 
 [responsiv](https://dmitriylu.github.io/responsiv/ "my work")
+
+[plae-shoes](https://dmitriylu.github.io/plae-shoes/ "my work")
