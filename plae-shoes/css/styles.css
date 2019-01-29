@@ -1,0 +1,227 @@
+body{
+    font-family: 'nunito_sanslight';
+    font-size: 16px;
+    color: #000;
+
+}
+h1,h2,h3,h4,h5,h6{
+    color: #000;
+}
+h1{
+    color:white;
+}
+.title{
+    font-size: 30px;
+    line-height: 1.5em;
+    text-align: center;
+    margin-top: 80px;
+}
+.text{
+    font-family: 'yantramanav_thinregular';
+    font-size: 18px;
+    text-align: center;
+}
+/* ===HEADER=== */
+header{
+    width: 100%;
+    /* min-height: 800px; */
+    height: 100vh;
+    background: url(../img/blue-chear.png) no-repeat top center;
+    background-size: cover;
+    position: relative;
+}
+ header::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.25;
+} 
+header .logo{
+    position: absolute;
+    left: 3%;
+    top: 3%;
+}
+.content{
+    max-width: 600px;
+}
+.content__title{
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.content__text{
+    font-size: 20px;
+    text-shadow: 0px 8px 10px #000000;
+    font-family: 'yantramanav_lightregular';
+    margin: 30px 0 60px;
+}
+.form-control{
+    width: 56%;
+    font-family: 'yantramanav_lightregular';
+    font-size: 18px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    padding: 21px;
+}
+.btn-success{
+    width: 28%;
+    font-family: 'nunito_sansregular';
+    font-size: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-left: -25px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+     border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+  /* ===section-ABOUT=== */
+.about{
+      width: 100%;
+      height: auto;
+}
+.about__content{
+    max-width: 405px;
+    margin: 0 auto;
+}
+.about__content > p{
+    font-family: 'yantramanav_thinregular';
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+/* section-REVIEW */
+.review{
+    width: 100%;
+    height: auto;
+}
+.client-review{
+    max-width: 320px;
+    line-height: 2em;
+    font-family: 'yantramanav_thinregular';
+    font-size: 20px;
+    margin: 130px 0 100px;
+    position: relative;
+}
+.client-review::after,
+.client-review::before{
+    content: "\2033";
+    display: block;
+    color: #dcdcdc;
+    font-size: 72px;
+    position: absolute;
+   
+}
+.client-review::before{
+    top: -20px;
+    left: -20px;
+}
+.client-review::after{
+    bottom: -10px;
+    right: -25px;
+}
+.client-name{
+    font-family: 'yantramanav_thinregular';
+    font-size: 18px;
+    padding: 0 0 10px;
+}
+/* section-RENDGE */
+.rendge{
+    width: 100%;
+    min-height: 800px;
+    height: 100vh;
+}
+/* CAROUSEL */
+.carousel{
+    top:100px;
+}
+.carousel-indicators{
+    bottom: -20px;
+}
+ .carousel-indicators li{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-border-radius: 50%;
+} 
+.carousel-caption{
+    margin-top: 60px;
+}
+.carousel-control-next,
+.carousel-control-prev{
+    top: 25%;
+    bottom: 100%;
+}
+.fas.fa-chevron-right,
+.fas.fa-chevron-left{
+    color: #28a745;
+    font-size: 60px;
+    padding: 30px;
+}
+/* ===why-plae === */
+.why-plae{
+   background: #e2e0e0;
+   min-height: 800px;  
+}
+/* ===section-faind-us=== */
+.adress{
+    margin-bottom: 30px;
+}
+.adress__title h4{
+    font-family: 'yantramanavregular';
+    font-size: 16px;
+    font-weight: bold;
+}
+.adress__text p{
+    font-family: 'yantramanav_thinregular';
+    font-size: 15px;
+    margin: 0;
+}
+.adress__sait a{
+    color: #28a745;
+}
+/* ===section-CONTACT=== */
+.contact{
+   padding-bottom: 80px;
+}
+.contact-box__sait a,
+.contact-box__phone p{
+    font-family: 'yantramanav_thinregular';
+    font-size: 18px;
+}
+/* ===section-SIGN-UP */
+.signup{
+   min-height: 410px;
+   background: #f3f3f3; 
+}
+.signup-heading{
+    padding-top: 140px;
+}
+.signup-heading__text{
+    font-size: 22px;
+    margin: 0;
+    padding: 0 0 50px;
+}
+/* ===footer=== */
+.footer-text{
+    font-family: 'yantramanavregular';
+    font-size: 14px;
+    padding: 20px;
+}
+  
+
+
+
+  
+  

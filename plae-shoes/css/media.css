@@ -1,0 +1,62 @@
+@media only screen and (max-width: 991px){
+    .card{
+        width: 100%!important;
+        margin-bottom: 10px;
+    }
+    
+} 
+@media only screen and (max-width: 767px){
+    header .logo{
+        left: 50%;
+        top: 13%;
+        transform: translateX(-50%);
+    }
+    .carousel-control-prev,
+    .carousel-control-next{
+        display: none;
+    }
+    .contact-box{
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact-box__sait{
+       margin-bottom: 5px;
+    }
+} 
+@media only screen and (max-width: 575px){
+    .content__title{
+        font-size: 50px;
+    }
+    .content__text{
+        font-size: 16px;
+    }
+} 
+@media only screen and (max-width: 435px){
+    .signup-heading .title{
+        font-size: 25px;
+    }
+    .signup-heading__text{
+        font-size: 16px;
+    }
+} 
+@media only screen and (max-width: 400px){
+    .form-control{
+        padding: 10px;
+        font-size: 15px;
+    }
+    .btn-success{
+      width: 30%;
+      font-size: 16px;  
+    }
+    .client-review::before {
+        top: -20px;
+        left: -6px;
+    }
+    .client-review::after {
+        bottom: -10px;
+        right: -6px;
+    }
+    .carousel-item img{
+        width: 300px !important;
+    }
+} 

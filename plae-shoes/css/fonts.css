@@ -1,0 +1,61 @@
+
+
+@font-face {
+    font-family: 'nunito_sanslight';
+    src: url('../fonts/nunito/nunitosans-light-webfont.eot');
+    src: url('../fonts/nunito/nunitosans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/nunito/nunitosans-light-webfont.woff2') format('woff2'),
+         url('../fonts/nunito/nunitosans-light-webfont.woff') format('woff'),
+         url('../fonts/nunito/nunitosans-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nunito_sansregular';
+    src: url('../fonts/nunito/nunitosans-regular-webfont.eot');
+    src: url('../fonts/nunito/nunitosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/nunito/nunitosans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/nunito/nunitosans-regular-webfont.woff') format('woff'),
+         url('../fonts/nunito/nunitosans-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'yantramanav_lightregular';
+    src: url('../fonts/yantramanav/yantramanav-light-webfont.eot');
+    src: url('../fonts/yantramanav/yantramanav-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/yantramanav/yantramanav-light-webfont.woff2') format('woff2'),
+         url('../fonts/yantramanav/yantramanav-light-webfont.woff') format('woff'),
+         url('../fonts/yantramanav/yantramanav-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'yantramanavregular';
+    src: url('../fonts/yantramanav/yantramanav-regular-webfont.eot');
+    src: url('../fonts/yantramanav/yantramanav-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/yantramanav/yantramanav-regular-webfont.woff2') format('woff2'),
+         url('../fonts/yantramanav/yantramanav-regular-webfont.woff') format('woff'),
+         url('../fonts/yantramanav/yantramanav-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'yantramanav_thinregular';
+    src: url('../fonts/yantramanav/yantramanav-thin-webfont.eot');
+    src: url('../fonts/yantramanav/yantramanav-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/yantramanav/yantramanav-thin-webfont.woff2') format('woff2'),
+         url('../fonts/yantramanav/yantramanav-thin-webfont.woff') format('woff'),
+         url('../fonts/yantramanav/yantramanav-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
