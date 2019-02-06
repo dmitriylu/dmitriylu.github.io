@@ -1,0 +1,137 @@
+@import '../node_modules/bootstrap/scss/bootstrap'
+@import '../node_modules/sass-autoprefixer/scss/prefixes'
+@import './fonts'
+@import './variables'
+html
+    font-size: 10px
+body
+    color: $color-text-body
+    font-size: 16px
+    font-family: $font-famyly-text
+.header-top
+        padding: 2rem 0
+        .navbar-nav>.nav-item
+            padding: 0 2rem 0 0
+            .nav-link
+                color: $color-text-body
+                &:hover
+                    color: $color-grey-light
+            .dropdown-menu
+                background: $color-dropdown-bg
+                .dropdown-item
+                    font-size: 1.1em
+                    padding: 1rem 4rem
+                    color: $color-dropdown
+                    font-weight: $font-weight-bold
+                    &:hover
+                        color: $color-text-body
+                        font-weight: $font-weight-bold
+        form
+            .form-control
+                width: 16.5rem
+                font-size: 0.8em
+                text-align: center
+            .btn
+                color: $color-dropdown
+                left: 2rem
+        .navbar-toggler-icon
+            width: 2.5rem
+            height: 2.5rem
+// section-SLIDER   
+.bananas
+    width: 100%
+    min-height: 44rem
+    margin-top: 9rem
+    background: url(../img/bananas_4.png) no-repeat center
+    background-size: cover
+    position: relative
+    &::after
+        content: ""
+        display: block
+        position: absolute
+        right: 0
+        top: 0
+        bottom: 0
+        left: 0
+        background: rgba(255, 255, 255, 0.42)
+
+    .content
+        width: 36rem
+        z-index: 1
+        position: relative
+        .logo2
+            margin-top: 5rem
+        .content__title h1
+            font-family: 'playfair_displayregular'
+            font-size: 1.5em
+            color: $color-red
+            margin: 3rem 0
+        .content__text
+                margin-bottom: 3rem
+                font-weight: $font-weight-bold
+        .btn.btn-outline-secondary
+            color: $color-text-body
+            border-color: $color-border
+            border-radius: 0px
+            padding: 0.5rem 2rem
+// RECIPEES
+.recipees
+    margin-top: 9rem
+    width: 100%
+    min-height: 37.8rem
+    background: $color-bg-white
+    .recipe__title
+        margin: 1.5rem
+        font-size: 18px
+    .recipe img
+        margin-top: 4rem
+    .recipe__time
+        color: $color-grey-dark
+// cake
+.cake
+    width: 100%
+    min-height: 44rem
+    background: #fff
+    margin-top: 9rem
+    .cake-recipe
+        max-width: 50rem
+        &__title
+            font-family: 'playfair_displayblack'
+            color: $color-dip-blue
+            font-size: 2em
+            margin: 3rem 0 2.5rem
+        &__time
+            margin-bottom: 2.5rem
+            .icon-time 
+                color: $color-grey-dark
+                font-size: 1em
+                .time
+                    font-family: 'open_sanslight'
+                    font-size: 16px
+                    color: $color-grey-dark
+        .ingredients
+            margin-bottom: 2.5rem
+        .cooking
+            &__title
+                 font-family: 'playfair_displaybold'
+                 margin-bottom: 2.5rem
+// footer
+.footer
+    min-height: 14rem
+    margin-top: 9rem
+    &__menu ul
+        list-style: none
+        font-size: 14px
+        margin: 0
+        padding: 0
+        li
+            padding-right: 15px
+
+@import './media'
+
+
+
+
+                   
+            
+            
