@@ -17,3 +17,5 @@
 [responsiv](https://dmitriylu.github.io/responsiv/ "my work")
 
 [plae-shoes](https://dmitriylu.github.io/plae-shoes/ "my work")
+
+[rocket](https://dmitriylu.github.io/rocket/ "my work")
