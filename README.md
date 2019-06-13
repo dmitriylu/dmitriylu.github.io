@@ -6,6 +6,8 @@
 
 [pink](https://dmitriylu.github.io/pink/ "my work")
 
+[test](https://dmitriylu.github.io/test/ "my work")
+
 [aironepage2](https://dmitriylu.github.io/aironepage2/ "my work")
 
 [kitchen2](https://dmitriylu.github.io/kitchen2/ "my work")
