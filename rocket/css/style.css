@@ -111,6 +111,7 @@ height: 80px;
 .nav{
     display: flex;
     font-size: 18px;
+    text-transform: capitalize;
 }
 .nav a{
     padding: 0 0 0 25px;
