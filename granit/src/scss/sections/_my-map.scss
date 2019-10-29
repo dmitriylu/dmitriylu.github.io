@@ -1,0 +1,54 @@
+.my-map {
+    width: 100%;
+    min-height: 520px;
+    background: url('../../img/bg/map.png') no-repeat;
+    background-size: cover;
+    position: relative;
+    &__location {
+        position: absolute;
+        top: 50%;
+        left: 30%;
+    }
+    .contacts {
+        max-width: 380px;
+        height: 360px;
+        background: $color-text-secondary;
+        margin: 0 0 0 auto;
+        padding: 0 0 0 60px;
+        position: relative;
+        top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &__title {
+            margin: 0 0 40px;
+        }
+        &__item {
+            display: flex;
+            margin: 0 0 35px;
+        }
+        .contact-icon {
+            margin: 0 15px 0 0;
+        }
+        &__phone-numbers {
+            .phone-number {
+                margin: 0 0 15px;
+                font-family: 'Gotham_proBold';
+                font-size: 14px;
+                color: $color-text-primary;
+            }
+        }
+        &__adress {
+            line-height: 1.4em;
+            font-size: 14px;
+            font-family: 'Gotham_proMedium';
+        }
+        &__mail {
+            .mail-adress {
+                font-size: 14px;
+                font-family: 'Gotham_proMedium';
+                color: $color-text-primary;
+            }
+        }
+    }
+}

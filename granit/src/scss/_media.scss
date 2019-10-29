@@ -1,0 +1,144 @@
+@media only screen and (max-width: 960px) {
+    .header {
+        .top-header {
+            background: #ffffff70;
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            min-height: 100px;
+            &__content {
+                justify-content: space-around;
+                align-items: center;
+                .callback {
+                  display: none;  
+                }
+                .burger {
+                    &__item {
+                        display: block;
+                    }
+                }
+            }
+            nav {
+                // display: none;
+                right: -100%;
+                top: 100px;
+                bottom: 0;
+                transition: all .5s ease;
+                position: absolute;
+                width: 100%;
+                // height: 100vh;
+                // transition: .6s ease;
+                .menu {
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    height: 100vh;
+                    flex-direction: column;
+                }
+            }
+            nav.show {
+                // display: block;
+                right: 0;
+                transition: all .5s ease;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 919px) {
+    .in-stock {
+        .products {
+            justify-content: center;
+            .product {
+                margin: 0 20px 20px;
+            }
+        }
+    }
+    .our-advantages {
+        .advantages {
+            justify-content: center;
+            .advantage {
+                margin: 0 20px 20px;
+            }
+        }
+    }
+    .our-services { 
+        .services {
+            justify-content: center;
+            .service {
+                margin: 0 20px 20px;
+            } 
+        }
+    }
+}
+@media only screen and (max-width: 709px) {
+    .popular-goods {
+        .top-products {
+            justify-content: center;
+        }
+    }
+    .my-map {
+        .contacts {
+            margin: 0px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
+@media only screen and (max-width: 525px) {
+    .footer {
+        &__content {
+            justify-content: center;
+            .callback {
+                display: none;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 465px) {
+    .banner {
+        text-align: center;
+        &__title {
+            font-size: 30px !important;
+            text-align: center;
+        }
+        &__buttons {
+            flex-direction: column;
+        }
+        &__btn {
+            margin: 0 0 50px;
+        }
+        &__span {
+            display: none;
+        }
+    }
+}
+@media only screen and (max-width: 380px) {
+    .in-stock {
+        .products {
+            .product {
+                margin: 0 0 20px;
+            }
+        }
+    }
+    .our-advantages {
+        .advantages {
+            .advantage {
+                margin: 0 0 20px;
+            }
+        }
+    }
+    .our-services { 
+        .services {
+            .service {
+                margin: 0 0 20px;
+            } 
+        }
+    }
+}
+@media only screen and (max-width: 320px) {
+    .my-map {
+        .contacts {
+            padding: 0 10px 0 40px;
+        }
+    }
+}
