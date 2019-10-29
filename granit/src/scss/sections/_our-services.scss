@@ -1,0 +1,33 @@
+.our-services {
+    width: 100%;
+    min-height: 490px;
+    background: $color-gray;
+    .services {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .service {
+            width: 300px;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: 2px solid $color-text-secondary;
+            // cursor: pointer;
+            &:hover {
+                box-shadow: 5px 5px 20px $color-text-gray;
+                background: $color-text-secondary;
+            }
+            &__link {
+                color: $color-text-primary;
+            }
+            &__img {
+                margin: 0 0 40px;
+            }
+            &__title {
+                border-bottom: 1px solid $color-text-gray;
+            }
+        }
+    }
+}
