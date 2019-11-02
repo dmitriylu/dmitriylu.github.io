@@ -4,6 +4,8 @@
 
 [casablanca](https://dmitriylu.github.io/casablanca/ "my work")
 
+[granit](https://dmitriylu.github.io/granit/ "my work")
+
 [pink](https://dmitriylu.github.io/pink/ "my work")
 
 [test](https://dmitriylu.github.io/test/ "my work")
@@ -21,5 +23,3 @@
 [plae-shoes](https://dmitriylu.github.io/plae-shoes/ "my work")
 
 [rocket](https://dmitriylu.github.io/rocket/ "my work")
-
-[granit](https://dmitriylu.github.io/granit/ "my work")
