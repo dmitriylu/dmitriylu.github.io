@@ -22,4 +22,4 @@
 
 [rocket](https://dmitriylu.github.io/rocket/ "my work")
 
-[rocket](https://dmitriylu.github.io/granit/ "my work")
+[granit](https://dmitriylu.github.io/granit/ "my work")
