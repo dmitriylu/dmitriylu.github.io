@@ -1,0 +1,51 @@
+.popular-goods {
+    width: 100%;
+    min-height: 590px;
+    padding: 0 0 30px;
+    .top-products {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .top-product {
+            width: 220px;
+            height: 345px;
+            margin: 5px;
+            border: 2px solid $color-gray-light;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            &:hover {
+                box-shadow: 5px 5px 20px $color-text-gray;
+            }
+            &__img {
+                position: relative;
+                display: block;
+                margin: 0 0 20px;
+                .sale {
+                    width: 55px;
+                    height: 23px;
+                    font-family: 'Gotham_proMedium';
+                    font-size: 10px;
+                    background: rgb(241, 12, 12);
+                    text-align: center;
+                    line-height: 23px;
+                    color: $color-text-secondary;
+                    position: absolute;
+                    top: 10px;
+                    left: 10px;
+                }
+            }
+            &__link {
+              color: $color-text-primary;
+              font-size: 13px;
+              text-decoration: underline $color-text-gray;
+              margin: 0 0 20px;  
+            }
+            &__price {
+                margin: 0 0 20px;
+            }
+        }
+    }
+}
