@@ -1,0 +1,54 @@
+.clients {
+    // min-height: 900px;
+    background: $primary-color--light;
+    padding-bottom: 10rem;
+    .reviews {
+        margin-top: 6rem;
+        .review {
+            max-width: 56.6rem;
+            min-height: 24rem;
+            background: $secondary-color-text;
+            display: flex;
+            align-items: center;
+            padding: 0 4rem 0 3rem;
+            margin-bottom: 20px;
+            &__img{
+              width: 12.1rem;
+              height: 12.1rem;
+              border-radius: 10rem; 
+              margin-right: 3.2rem; 
+            }
+            &__descr{
+                max-width: 31.6rem;
+            }
+            &__text{
+                color: $color-text;
+                margin-bottom: 1.5rem;
+                position: relative;
+                &::after,
+                &::before {
+                    content: '"';
+                    display: block;
+                    position: absolute;
+                    font-size: 30px;
+                }
+                &::after {
+                    top: -12px;
+                    left: -18px;
+                }
+                &::before {
+                    right: 8rem;
+                    bottom: -1.8rem;
+                }
+            }
+            &__name{
+                text-transform: uppercase;
+                font-size: 14px;
+                color: #f6772c;
+            }
+            &__work-position{
+                color: #99a9ae;
+            }
+        }
+    }
+}

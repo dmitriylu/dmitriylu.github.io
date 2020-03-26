@@ -1,0 +1,38 @@
+.how-works {
+    // min-height: 86rem;
+    padding-bottom: 10rem;
+    .stages {
+        margin-top: 9rem;
+        margin-bottom: 8.5rem;
+        .stage {
+            position: relative;
+            &__img {
+              margin-bottom: 9rem;  
+            }
+            &__title {
+                font-family: 'lato-bold';
+                font-size: 1.250em;
+                text-transform: uppercase;
+                color: $primary-color-text;
+                margin-bottom: 1.8rem;
+            }
+            &__text {
+                max-width: 21.3rem;
+                margin: 0 auto;
+            }
+            &__arrow-up {
+                position: absolute;
+                top: -30px;
+                right: -84px;
+            }
+            &__arrow-down {
+                position: absolute;
+                // top: -30px;
+                right: -84px;
+            }
+        }
+    }
+    .all-btn {
+        width: 165px;
+    }
+}

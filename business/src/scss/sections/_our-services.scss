@@ -1,0 +1,32 @@
+.our-services {
+    width: 100%;
+    padding-top: 19.5rem;
+    .services {
+        padding-top: 7.5rem;
+        .service {
+            display: flex;
+            margin-bottom: 7rem;
+            &__icon {
+               width: 4.6rem;
+               height: 4.6rem;
+               margin-right: 3.7rem;
+               &:last-child {
+                   height: 46px;
+               } 
+            }
+            &__content {
+                max-width: 43rem;
+            }
+            &__title {
+                font-size: 16px;
+                color: $primary-color-text;
+                font-family: 'lato-bold';
+                text-transform: uppercase;
+                margin: 0 0 15px 0;
+            }
+            &__text {
+                color: #7b7b7b;
+            }
+        }
+    }
+}

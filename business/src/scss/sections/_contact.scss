@@ -1,0 +1,86 @@
+.contact {
+    padding-bottom: 10rem;
+    .form-contact{
+        margin: 4rem 0 5.3rem;
+        &__item {
+            position: relative;
+            input {
+                width: 30.8rem;
+                height: 4.6rem;
+                padding: 0 2rem 0 4.5rem;
+                margin-right: 10px;
+                border: 1px solid #cbcbcb;
+                &::placeholder {
+                    color: #a9a9a9;
+                    font-size: 0.813em;
+                }
+            }
+            input[type=email] {
+                width: 38.8rem;
+            }
+            i {
+                position: absolute;
+                left: 16px;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 15px;
+                color: #6e6e6e;
+            }
+        }
+        button {
+            width: 218px;  
+        }
+    }
+    &__info {
+        // min-height: 55rem;
+        background: url('../../build/img/bg-contact.png') no-repeat top center;
+        // background-size: cover;
+        background-size: contain;
+        .address {
+           width: 27.9rem;
+           height: 27.9rem;
+           background: $primary-color-text;
+           border-radius: 50%;
+           position: relative;
+           margin-top: 4rem;
+           margin-bottom: 2rem;
+           padding-top: 6rem;
+           &::after {
+            content: '';
+            position: absolute;
+            border: 20px solid transparent;
+            border-top: 20px solid $primary-color-text;
+            border: 7px solid transparent;
+            border-top: 13px solid #34464e;
+            bottom: -19px;
+            left: 50%;
+            transform: translateX(-50%);
+           }
+        //    &__content {
+
+        //    }
+           &__title {
+            font-family: 'lato-bold';
+            font-size: 0.938em;
+            text-transform: uppercase;
+            color: $secondary-color-text;  
+           } 
+           &__street {
+            max-width: 13rem;
+            margin: 0 auto;
+            color: #9ea9ac;
+           }
+           &__phone {
+              color: #9ea9ac; 
+              font-size: 13px;
+              display: block;
+           } 
+           &__email {
+            font-size: 13px;
+            color: $primary-color;
+           } 
+        }
+    }
+    
+}
+  

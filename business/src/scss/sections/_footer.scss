@@ -1,0 +1,39 @@
+.footer {
+    min-height: 218px;
+    background: $secondary-color;
+    padding: 6rem 0;
+    a {
+        color: $secondary-color-text;
+        transition: ease 0.5s;
+        &:hover {
+            color: $primary-color--light;
+            text-decoration: none;
+            transition: ease 0.5s;
+        }
+    }
+    .footer-nav {
+        font-size: 13px;
+        padding: 0;
+        margin-bottom: 4rem;
+        li {
+            margin-right: 3.5rem;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    .footer-phone {
+       &__icon {
+        margin-right: 1rem; 
+       }
+       &__number {
+           font-size: 18px;
+       }
+    }
+    .footer-icons {
+        font-size: 18px;
+        a {
+            margin-right: 15px;
+        }
+    }
+}

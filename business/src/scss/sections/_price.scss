@@ -1,0 +1,58 @@
+.price {
+    background: #e7edf3;
+    padding-bottom: 10rem;
+    .price-cards {
+        margin-top: 8rem;
+        .card {
+            min-height: 44rem;
+            color: #818b95;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-transform: uppercase;
+            padding: 0 3rem;
+            transition: ease 0.5s;
+            &:hover {
+                background: $secondary-color;
+                color: $secondary-color-text ;
+                transition: ease 0.5s;
+                transform: scale(1.1);
+                position: relative;
+                z-index: 1;
+            }
+            &__title {
+                font-family: 'lato-light';
+                font-size: 1.563em; 
+            }
+            &__price {
+                font-family: 'lato-bold';
+                font-size: 3.750em;
+                color: $primary-color;
+                sup {
+                    font-size: 36px;
+                }
+            }
+            &__month {
+                font-size: 15px;
+                font-family: 'lato-light';
+                margin-top: -1.5rem;
+                margin-bottom: 2rem;
+            }
+            &__line {
+                width: 100%;
+                height: 1px;
+                background: #e2e9f0;
+                margin-bottom: 11px;
+            }
+            &__text {
+                text-transform: uppercase;
+            }
+            .all-btn {
+                width: 13rem;
+            }
+        }
+    }
+}
+
+
+  
