@@ -1,0 +1,54 @@
+.features {
+    background: url('../../build/img/bg/bg-features.jpg') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    min-height: 800px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    &__content {
+        position: relative;
+        z-index: 1;
+        margin: 35px 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .feature {
+            color: $color-text--primary;
+            width: 265px;
+            text-align: center;
+            margin: 0 0 50px;
+            padding: 0 10px;
+            &__img {
+                .feature-circle {
+                    width: 66px;
+                    height: 66px;
+                    border-radius: 50%;
+                    border: 2px solid $color-text--primary;
+                    margin: 0 auto 30px;
+                    position: relative;
+                    .icon-feature {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+                }
+            }
+            &__title {
+                font-size: 18px;
+                line-height: 1.5;
+                width: 180px;
+                margin: 0 auto 12px;
+
+            }
+            &__text {
+                font-size: 14px;
+                line-height: 1.688;
+                letter-spacing: 0.06em;
+            }
+        }
+    }
+}
+
+  

@@ -1,0 +1,67 @@
+.about {
+    width: 100%;
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    .about-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .about-haeding {
+        max-width: 465px;
+        
+        &__title {
+            margin: 0 0 20px;
+        }        
+        &__text {
+            font-size: 14px;
+            color: $color-text--secondary;
+            line-height: 1.571;
+        }        
+    }
+    .about-slider {
+        max-width: 570px;
+        position: relative;
+        &::after,
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            z-index: 1;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: $color-text--primary;
+            top: 50%;
+            transform: translateY(-50%);
+            box-shadow:0px 5px 20px 2px rgba(0,0,0,0.3);
+        }
+        &::after {
+            left: -21px;
+        }
+        &::before {
+            right: -21px;
+        }
+        &__item {
+            box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .icon-arrow {
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            z-index: 2;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            &__right {
+                right: -8px;
+            }
+            &__left {
+                left: -8px;
+            }
+        }
+    }
+}
+

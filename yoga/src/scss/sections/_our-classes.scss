@@ -1,0 +1,65 @@
+.our-classes {
+    width: 100%;
+    min-height: 900px;
+    &__heading {
+        text-align: center;
+        margin: 115px 0 0;
+    }
+    &__title {
+        font-family: "openSans-bold";
+        color: $color-text--acent;
+        font-size: 30px;
+        line-height: 1.5;
+    }
+    &__subtitle {
+        font-family: "freesctp";
+        font-size: 41px;
+        color: $color-text--secondary-dark;
+        text-transform: capitalize;
+        line-height: 1.5;
+       
+    }
+    .lessons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        .lesson {
+            display: flex;
+            align-items: center;
+            box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            flex-basis: 570px;
+            // width:  570px;
+            min-height: 300px;
+            margin: 25px 0 0;
+            &__img {
+                margin: 0 30px 0 0;
+                img {
+                    width: 270px;
+                }
+            }
+            &__title {
+                color: $color-text--secondary-dark;
+                font-size: 20px;
+                line-height: 2.25em;
+                margin: 0 0 20px;
+            }
+            &__text {
+                font-size: 14px;
+                padding: 0 46px 0 0;
+                color: $color-text--secondary;
+                line-height: 1.57em;
+            }
+            &__autor {
+                text-transform: capitalize;
+                color: $color-text--secondary-light;
+                font-size: 14px;
+                line-height: 1.57em;
+                margin: 7px 0 0;
+            }
+        }
+    }
+}
+
+  
