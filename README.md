@@ -9,7 +9,7 @@
 
 [granit](https://dmitriylu.github.io/granit/ "my work") (Gulp, scss, svg, flexbox, js)
 
-[busines](https://dmitriylu.github.io/business/ "my work") (bootstrap4)
+[business](https://dmitriylu.github.io/business/ "my work") (bootstrap4)
 
 [pink](https://dmitriylu.github.io/pink/ "my work") (flexbox, popup, jQuery)
 
