@@ -24,14 +24,14 @@
 [rocket](https://dmitriylu.github.io/rocket/ "my work")
 
 [rocket](https://dmitriylu.github.io/granit/ "my work")
-
-[yoga](https://dmitriylu.github.io/yoga/ "yoga")
 =======
 # Dmitriy Lubiannikov
 
 ## My works
 
 [casablanca](https://dmitriylu.github.io/casablanca/ "my work") (bootstrap grid,animate css,owl-carousel)
+
+[yoga](https://dmitriylu.github.io/yoga/ "yoga") (Gulp, scss, svg, flexbox, js)
 
 [granit](https://dmitriylu.github.io/granit/ "my work") (Gulp, scss, svg, flexbox, js)
 
