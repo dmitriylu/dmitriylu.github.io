@@ -31,7 +31,7 @@
 
 [casablanca](https://dmitriylu.github.io/casablanca/ "my work") (bootstrap grid,animate css,owl-carousel)
 
-[yoga](https://dmitriylu.github.io/yoga/ "yoga") (Gulp, scss, svg, flexbox, js)
+[yoga](https://dmitriylu.github.io/yoga/ "my work") (Gulp, scss, svg, flexbox, js)
 
 [granit](https://dmitriylu.github.io/granit/ "my work") (Gulp, scss, svg, flexbox, js)
 
