@@ -416,12 +416,12 @@ fieldset[disabled] .btn-theme {
   position: relative;
   z-index: 1;
   text-align: center;
-  background: url(https://portkennedyvet.com.au/wp-content/uploads/2016/12/Order-1793_image8-1.jpg);
+  background: url('../img/1920x1080/bg-dogs.jpg') no-repeat center top; 
   /* background: url(../img/1920x1080/01.jpg) no-repeat; */
   background-size: cover;
   /* background-position: center center; */
   padding: 250px 0 200px;
-  background-position: 50% 30%;
+  /* background-position: 50% 30%; */
 }
 
 .promo-block:before {
