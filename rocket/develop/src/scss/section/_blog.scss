@@ -1,0 +1,62 @@
+.blog {
+    background: $primary-color-light;
+    padding-bottom: 100px;
+    &__content {
+        .news {
+            display: flex;
+            &__content {
+                width: 465px;
+                padding-top: 70px;
+                margin-left: 30px;
+            }
+            &__img {
+                width: 570px;
+                img {
+                    display: block;
+                    width: 100%;
+                }
+            }
+            &__link {
+                font-family: 'opensans-semibold';
+                font-size: 25px;
+                color: $primary-color-text;
+                text-transform: capitalize;
+                transition: linear 0.3s;
+                margin-bottom: 14px;
+                &:hover {
+                    color: $primary-color;
+                    transition: linear 0.3s;
+                }
+            }
+            &__date {
+                display: flex;
+                margin-bottom: 18px;
+                &-item {
+                   display: flex;
+                   align-items: center;
+                   margin-right: 40px;
+                   &:last-child {
+                       margin-right: 0;
+                   } 
+                }
+                &-icon {
+                    font-size: 18px;
+                    margin-right: 14px;
+                }
+                &-text {
+                    font-family: 'opensans-semibold';
+                    font-size: 17px;
+                }
+            }
+        }
+        .news:nth-child(2n) {
+            justify-content: space-between;
+            .news__content {
+                margin-left: 0;
+            }
+        }
+    }
+    &__button {
+        margin: 100px auto 0;
+    }
+}

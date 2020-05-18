@@ -1,0 +1,51 @@
+.services {
+    background: $primary-color-light;
+    padding-bottom: 70px;
+    &__cards {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    &__card {
+        width: 370px;
+        min-height: 440px;
+        background: $secondary-text-color;
+        padding: 58px 42px 0px;
+        text-align: center;
+        transition: ease 0.5s;
+        margin-bottom: 30px;
+        &-icon {
+            margin: 0 0 40px 20px; 
+        }
+        &-title {
+            margin-bottom: 15px; 
+        }
+        &-text {
+            margin-bottom: 40px;
+            line-height: 1.8em;
+        }
+        &-btn {
+            width: 150px;
+            height: 55px;
+            border: 2px solid $primary-color-text;
+            color: $primary-color-text;
+            margin: 0 auto;
+        }
+    }
+    .services__card:hover {
+        background: $primary-color;
+        transition: ease 0.5s;
+        .services__card-title,
+        .services__card-text,
+        .services__card-btn{
+            color: $secondary-text-color;
+        }
+        .services__card-btn {
+            border-color: $secondary-text-color;
+        }
+        .services__card-icon {
+            fill: $secondary-text-color;
+        }
+    }
+
+}

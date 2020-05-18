@@ -1,0 +1,136 @@
+@import './reset';
+@import './libs';
+@import './fonts';
+@import './mixcin';
+@import './varibels';
+@import './icon';
+// font-family: 'opensans-bold';
+// font-family: 'opensans-regular';
+// font-family: 'opensans-light';
+// font-family: 'opensans-semibold';
+// font-family: 'roboto';
+
+*, *::after, ::before {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'opensans-regular';
+    font-size: 15px;
+    line-height: 1.47;
+    letter-spacing: 0.04em;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'opensans-semibold';
+    color: $primary-color-text;
+    text-transform: capitalize;
+}
+h1 {
+    font-size: 60px;
+    color: $secondary-text-color;
+    text-transform: none;
+}
+h3 {
+    font-size: 25px;
+}
+h4 {
+    font-size: 20px;
+}
+a {
+    display: block;
+    text-decoration: none;
+}
+// img {
+//     display: block;
+//     width: 100%;
+// }
+
+.btn-primary,
+.btn-second {
+   width: 220px;
+   height: 70px;
+   font-family: 'roboto';
+   text-transform: uppercase;
+   font-size: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: $secondary-text-color;
+   letter-spacing: 0.1em;
+   transition: ease 0.5s;
+}
+.btn-second {
+    border: 3px solid #ffffff;
+    &:hover {
+        color: $secondary-text-color;
+        border-color: $secondary-text-color;
+        background:  $primary-color;
+    }
+   }
+   .btn-primary {
+    background: $primary-color;
+    &:hover {
+        background: $primary-color-dark;
+    }
+   }
+   .top{
+    width: 50px;
+    height: 50px;
+    background:  $primary-color;
+    text-align: center;
+    opacity: 0;
+    transition: 1s ease;
+    position: fixed;
+    right: 35px;
+    bottom: 30px;
+    font-size: 24px;
+    border-radius: 8px;
+    transition: ease 1s;
+    // display: none;
+}
+.scroll-up {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section{
+    .section__heading {
+        max-width: 620px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 120px 0;
+    }
+    .section__title {
+        font-size: 30px;
+        margin: 0 0 15px;
+    }
+    .section__text {
+        letter-spacing: 0.04em;
+    }
+}
+
+  
+
+
+
+
+
+
+
+@import './section/sliders';
+@import './header';
+@import './section/about';
+@import './section/services';
+@import './section/portfolio';
+@import './section/price';
+@import './section/team';
+@import './section/blog';
+@import './section/contact';
+@import './footer';
+@import './media';

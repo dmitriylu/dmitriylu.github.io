@@ -1,0 +1,99 @@
+.header {
+    // min-height: 775px;
+    background: $bg-overlay, url('../../build/img/bg/bg-header.jpg') no-repeat top center;
+    background-size: cover;
+    padding: 120px 0 30px;
+    
+    &__top {
+        position: fixed;
+        z-index: 2;
+        left: 0;
+        right: 0;
+        top: 0;
+        background: #ffffff;
+        &-content {
+            min-height: 90px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+           width: 250px; 
+        }
+        nav {
+            display: flex;
+            align-items: center;
+            overflow: auto;
+            .menu{
+                font-family: 'opensans-semibold';
+                font-size: 20px;
+                display: flex;
+                &__item {
+                    margin-right: 45px;
+                }
+                // &__link {
+                //    
+                // }
+            }
+            .nav__search {
+                font-size: 20px;
+            }
+        }
+        a {
+            color: $primary-color-text;
+            &:hover {
+                color: $primary-color;
+                transition: ease .5s;
+            }  
+        }
+        .burger {
+            display: none;
+            &__item {
+                width: 35px;
+                height: 4px;
+                background: $primary-color;
+                margin-bottom: 5px;
+                transition: all .5s ease;
+            }
+        }
+        .burger.toggle .burger__item:nth-child(1) {
+            transform: translateY(10px) rotate(45deg);
+            transition: all .5s ease;
+        }
+        .burger.toggle .burger__item:nth-child(2) {
+            opacity: 0;
+        }
+        .burger.toggle .burger__item:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+            transition: all .5s ease;
+        }
+    }
+
+
+    .header__content {
+        color: $secondary-text-color;
+        padding-top: 170px;
+        text-align: center;
+    }
+    .header__title {
+        margin-bottom: 14px;
+    }
+    .header__subtitle {
+        font-size: 22px;
+        margin-bottom: 100px;
+    }
+    .header__buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+        .header__button {
+            margin-right: 25px;
+        }
+    }
+    .header__arrow-down {
+      color: $secondary-text-color;
+      font-size: 35px;
+      display: inline-block; 
+    }
+}

@@ -1,0 +1,12 @@
+.footer{
+    background: #ffffff;
+    min-height: 64px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__text {
+        font-family: 'opensans-bold';
+        font-size: 20px;
+    }
+}

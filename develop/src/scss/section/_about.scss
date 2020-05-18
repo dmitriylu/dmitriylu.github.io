@@ -1,0 +1,19 @@
+.about {
+    padding-bottom: 100px;
+    &__skills {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    &__skill {
+        max-width: 250px;
+        text-align: center;
+    }
+    &__skill-icon {
+        margin-bottom: 30px;
+    }
+    &__skill-title {
+        margin-bottom: 10px;
+    }
+    
+}

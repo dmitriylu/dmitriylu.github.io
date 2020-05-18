@@ -1,0 +1,61 @@
+.team {
+    padding-bottom: 100px;
+    .team__slider {
+        &-item {
+           width: 370px;
+           text-align: center; 
+        }
+        &-photo {
+            margin-bottom: 20px;
+        }
+        &-subtitle {
+            text-transform: capitalize;
+        }
+        &-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+        }
+        &-icon {
+            width: 50px;
+            height: 50px;
+            background: #f0f1f1;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            color: $primary-color;
+            margin-right: 25px;
+            &:hover {
+                background: $accent-color;
+                color: $primary-color-light;
+            }
+        }
+    }
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        li {
+           margin-right: 10px; 
+           button {
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                background: $primary-color;
+                font-size: 0;
+                border: none;
+                outline: none;
+           }
+        }
+        li.slick-active{
+            button {
+                background: $accent-color;  
+            }
+        } 
+        .team__slider-dot.active {
+            background: $accent-color;
+        } 
+    }
+}
