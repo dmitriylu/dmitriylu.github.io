@@ -1,0 +1,29 @@
+.advantages {
+    // min-height: 408px;
+    padding: 160px 0;
+    background:url('../../build/img/bg/bg-section.jpg') no-repeat top center;
+    background-size: cover;
+    .advantages__icon {
+        margin: 0 15px 0 0;
+    }
+    .advantages__info {
+        display: flex;
+        align-items: center;
+    }
+    .advantages__title {
+        color: #1D1C21;
+        margin: 0 0 8px 0;
+    }
+    .advantages__text {
+        width: 166px;
+        &--widht-second {
+            width: 181px;
+        }
+        &--widht-last {
+            width: 222px;
+        }
+    }
+    .advantages__link {
+        color: $accent-color;
+    }
+}

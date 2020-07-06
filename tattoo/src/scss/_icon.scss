@@ -1,0 +1,14 @@
+.social-icon {
+    width: 22px;
+    height: 22px;
+    stroke: #D8D8D9;
+    fill: transparent;
+    &:hover {
+        stroke: $accent-color;
+    }
+}
+.scroll-up {
+    width: 30px;
+    height: 30px;
+    fill: $accent-color;
+}

@@ -1,0 +1,18 @@
+.footer {
+    padding: 40px 0 20px;
+    @import './nav';
+    .footer__nav {
+        border-top: 1px solid #89898B;
+        padding: 20px 0;
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+}
+.footer p {
+    color: #89898B;
+    font-size: 13px;
+    line-height: 1.15em; 
+}

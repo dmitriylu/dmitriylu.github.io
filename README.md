@@ -7,6 +7,8 @@
 
 [casablanca](https://dmitriylu.github.io/casablanca/ "my work") (bootstrap grid,animate css,owl-carousel)
 
+[tattoo](https://dmitriylu.github.io/tattoo/ "my work") (Gulp, scss,bootstrap-grid,svg,flexbox, js,jQuery,magnific popup,isotope,БЭМ нейминг, smooth scroll)
+
 [yoga](https://dmitriylu.github.io/yoga/ "my work") (Gulp, scss, svg, flexbox, js)
 
 [cars](https://dmitriylu.github.io/cars/ "my work") (Gulp, scss, svg, flexbox, js, php, magnific popup)

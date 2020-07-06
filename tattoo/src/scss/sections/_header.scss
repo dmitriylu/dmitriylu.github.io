@@ -1,0 +1,38 @@
+.header {
+    padding: 0 0 96px;
+    background: url('../../build/img/bg/bg-header.jpg')no-repeat center top;
+    background-size: cover;
+    .header__top {
+        padding: 40px 0 0;
+        @import './nav';
+        @import './burger-menu';
+    }
+    // .header__logo {
+
+    // }
+    .social{
+        display: flex;
+        flex-direction: column;
+        &__link {
+            :first-child {
+                margin-bottom: 21px;
+                margin-right: 0;
+            }
+        }
+    }
+    .header__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: -25px 0 0;
+    }
+    .header__text {
+        text-transform: uppercase;
+        font-family: 'Playfair Display SC', serif;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 1.3em;
+        color: #FFFFFF;
+        margin: 0 0 58px;
+    }
+}

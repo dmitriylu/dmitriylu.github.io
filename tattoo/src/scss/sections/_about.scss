@@ -1,0 +1,22 @@
+.about {
+    // height: 430px;
+    padding: 82px 0;
+    background: url('../../build/img/bg/bg-about.jpg') no-repeat center top;
+    background-size: cover;
+    &__content {
+        max-width: 455px;
+    }
+    // &__title {
+
+    // }
+    &__text p {
+        &:first-child {
+            margin: 0 0 18px;
+        }
+    }
+    &__photo {
+        position: absolute;
+        top: -97px;
+        left: -82px;
+    }
+}

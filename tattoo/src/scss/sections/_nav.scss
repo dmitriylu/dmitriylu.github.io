@@ -1,0 +1,17 @@
+.nav {
+    padding: 0 0 10px;
+    .menu {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #89898B;
+        padding: 0 0 10px;
+        &__link {
+            transition: ease 0.5s;
+            &:hover {
+                color: $accent-color;
+                transition: ease 0.5s;
+            }
+        }
+    }
+}

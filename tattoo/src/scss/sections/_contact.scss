@@ -1,0 +1,48 @@
+.contact {
+    padding: 40px 0 40px;
+    &__title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    @import './form';
+
+   .contact__description {
+       width: 100%;
+       display: flex;
+       background: #C4C4C4;
+   }
+   .contact__info {
+       padding: 30px 0 30px 96px;
+       background: #C4C4C4;
+       &-item {
+           margin-bottom: 10px;
+       }
+       &-title {
+        color: #1D1C21;
+        font-size: 14px;
+        line-height: 1.35em;
+        margin-bottom: 2px;
+       }
+       &-email {
+           color: #1D1C21;
+       }
+       &-phone {
+           color: #1D1C21;
+       }
+   }
+   .contact__social {
+       padding: 5px 0 0;
+   }
+   .social-icon {
+       stroke: #1D1C21;
+       &:hover {
+           stroke: $accent-color;
+       }
+   }
+   .contact__map {
+       height: 100%;
+       width: 100%;
+       background: url('../../build/img/map.png') no-repeat center top;
+       background-size: cover;
+   }
+}

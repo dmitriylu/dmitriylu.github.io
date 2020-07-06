@@ -1,0 +1,14 @@
+.artists {
+    padding: 80px 0 130px;
+    .artist-card {
+        &__photo {
+          width: 100%;  
+        }
+        &__description {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+    }
+}

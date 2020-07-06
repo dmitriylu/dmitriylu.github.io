@@ -1,0 +1,70 @@
+.form {
+    width: 540px;
+    &__item {
+        margin-bottom: 30px;
+    }
+    &__label {
+        display: block;
+    }
+    input,
+    textarea,
+    select {
+        width: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #89898B;
+        padding: 10px 15px;  
+    }
+    textarea {
+        height: 90px;
+    }
+    ::placeholder {
+        color: #36353D;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+    }
+    .select-box {
+        position: relative;
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            right: 0;
+            bottom: 2px;
+            width: 35px;
+            height: 35px;
+            background-image: url('../../build/img/svg/arrow-down.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center top;
+            pointer-events: none;
+        }
+    }
+    select {
+        height: 45px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        color: #36353D;
+        appearance: none;
+        option {
+            background: #1d1c21;
+            outline: none;
+        }
+    }
+    .form__opload {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 40px;
+        &-link {
+            display: flex;
+            align-items: center;
+        }
+        &-text {
+            margin: 0 5px 0 0;
+        }
+    }
+    .form__btn {
+        margin: 0 auto 80px;
+    }
+}
