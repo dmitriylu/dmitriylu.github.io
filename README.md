@@ -5,6 +5,8 @@
 
 [develop](https://dmitriylu.github.io/develop/ "my work") (Gulp,Scss,SVG,BEM naming,flexbox,Javascript native,резинавая вёрстка)
 
+[eSchool](https://dmitriylu.github.io/eSchool/ "my work") (Gulp,Scss,SVG,BEM naming,flexbox,Javascript native,swiper slider,адаптивная вёрстка)
+
 [casablanca](https://dmitriylu.github.io/casablanca/ "my work") (bootstrap grid,animate css,owl-carousel)
 
 [tattoo](https://dmitriylu.github.io/tattoo/ "my work") (Gulp, scss,bootstrap-grid,svg,flexbox, js,jQuery,magnific popup,isotope,БЭМ нейминг, smooth scroll)
