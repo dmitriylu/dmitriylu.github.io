@@ -1,0 +1,60 @@
+.progres{
+  color: #ffffff;
+  padding: 135px 0;
+  position: relative;
+  overflow: hidden;
+}
+.progres__inner{
+  display: flex;
+  align-items: center;
+  padding: 0 80px;
+}
+.progres__info{
+  display: flex;
+  flex-wrap: wrap;
+  &-item{
+    width: 310px;
+    height: 270px;
+    border-radius: 15px;
+    background-color: #3768d9;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px 50px 50px;
+    margin: 20px;
+  }
+  &-number{
+    @include font ($font-secondary,48,700);
+    flex-grow: 1;
+    span{
+      display: block;
+    }
+  }
+}
+.progres__info-item:last-child{
+  .progres__info-text{
+    margin-bottom: 30px;
+  }
+}
+.progres__text{
+  width: 360px;
+  font-weight: 600;
+  margin-bottom: 100px;
+}
+.progres__bg-dots1,
+.progres__bg-dots2,
+.progres__bg-dots3 {
+  position: absolute;
+}
+.progres__bg-dots1{
+  top: 0;
+  left: -25px;
+}
+.progres__bg-dots2{
+  right: 0;
+  bottom: 236px;
+}
+.progres__bg-dots3{
+  left: -25px;
+  bottom: -145px;
+}

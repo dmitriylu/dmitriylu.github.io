@@ -1,0 +1,100 @@
+.form {
+  width: 410px;
+}
+.form__control{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+  position: relative;
+  &::after {
+    content: '*';
+    position: absolute;
+    right: 0;
+    top: 30px;
+    color: #f9593a;
+    font-size: 46px;
+    line-height: 0;
+  }
+}
+.form__control.sucsses{
+  &::after{
+    content: url('../images/sucsses.png');
+    top: 0;
+    right: 5px;
+  }
+}
+.form__input{
+  width: 78%;
+  @include font ($font-primary,14,400);
+  padding: 6px 30px 6px 6px;
+  border: none;
+  border-bottom: 1px solid #cccccc;
+  outline: none;
+  &:focus{
+    border-bottom-color: $color-pimary;
+  }
+}
+.form__label{
+  @include font ($font-primary,14,700);
+  color: $color-secondary-text;
+  text-transform: uppercase;
+}
+.form__btn{
+  border: none;
+} 
+.form__agreement{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 45px;
+}
+.checkbox-block{
+  position: relative;
+  &__input {
+    appearance: none;
+    position: absolute;
+  }
+  &__label {
+    text-transform: lowercase;
+    font-weight: 400;
+    padding-left: 25px;
+    color: $color-secondary-text;
+    cursor: pointer;
+    span {
+      color: $color-pimary;
+    }
+    &::before{
+      content: '';
+      width: 15px;
+      height: 15px;
+      display: block;
+      border: 1px solid $color-secondary-text;
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      transition: border 0.5s ease;
+    }
+    &::after{
+      content: '';
+      display: block;
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      background-image: url('../images/correct.png');
+      background-repeat: no-repeat;
+      top: 4px;
+      left: 3px;
+      z-index: 2;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+  }
+}
+.checkbox-block__input:checked + .checkbox-block__label::before{
+  border-color: $color-pimary;
+}
+.checkbox-block__input:checked + .checkbox-block__label::after{
+  opacity: 1;
+}

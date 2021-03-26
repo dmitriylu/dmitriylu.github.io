@@ -1,0 +1,27 @@
+.social {
+  width: 28px;
+  height: 28px;
+  fill: $color-pimary;
+}
+.advantage-icon{
+  width: 46px;
+  height: 45px;
+  &__color1 {
+    fill: #0174a1;
+  }
+  &__color2 {
+    fill: $color-secondary;
+  }
+  &__color3 {
+    fill: #40c7fb;
+  }
+  &__color4 {
+    fill: #feb6a7;
+  }
+  &__color5 {
+    fill: #5dd9b5;
+  }
+  &__color6 {
+    fill: #ad7aed;
+  }
+}

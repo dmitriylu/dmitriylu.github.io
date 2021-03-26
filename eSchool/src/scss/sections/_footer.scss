@@ -1,0 +1,38 @@
+.footer {
+  padding: 38px 0 96px;
+  background-color: $color-bg;
+  color: #ffffff;
+}
+.footer__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__item{
+  &:last-child{
+    flex-grow: 1;
+  }
+}
+.footer__about{
+  max-width: 301px;
+  margin-right: 130px;
+}
+
+.footer__logo{
+  margin-bottom: 35px;
+}
+.footer__text{
+}
+.footer__info{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 45px;
+}
+.footer__info-title{
+  @include font ($font-primary,18,500);
+  margin-bottom: 25px;
+}
+
+.footer-list__item {
+  margin-bottom: 8px;
+}

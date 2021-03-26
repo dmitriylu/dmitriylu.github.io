@@ -1,0 +1,25 @@
+.partners{
+  padding-top: 200px;
+  padding-bottom: 38px;
+}
+.partners__heading{
+  justify-content: space-between;
+  margin-bottom: 137px;
+}
+.partners__title{
+  order: 1;
+  text-align: end;
+  margin-top: 45px;
+  span {
+    left: -79px;
+  }
+}
+.partners__dots{
+  left: 0;
+}
+.partners__btn {
+  margin: 0 auto;
+}
+.partners {
+ @import './slider'; 
+}

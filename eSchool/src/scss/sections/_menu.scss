@@ -1,0 +1,20 @@
+.menu-list{
+  display: flex;
+  align-items: center;
+  &__item{
+    margin-right: 70px;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+  &__link{
+    font-size: 18px;
+    transition: all 0.3s ease;
+    &:hover {
+      color: $color-pimary;
+    }
+  }
+  &__link.active {
+    color: $color-pimary;
+  }
+}

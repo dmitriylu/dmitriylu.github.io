@@ -1,0 +1,39 @@
+.contact {
+  padding-top: 100px;
+  padding-bottom: 170px;
+}
+.contact__inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 53px 0 45px;
+}
+.contact__info{
+  display: flex;
+  align-items: flex-end;
+}
+.contact__title{
+  max-width: 445px;
+  @include font ($font-primary,60,700);
+  line-height: 1.2em;
+  text-transform: uppercase;
+  span {
+    color: $color-pimary;
+  }
+}
+.contact__images{
+  max-width: 250px;
+  position: relative;
+  margin-left: -40px;
+  &-pen {
+    position: relative;
+    z-index: 1;
+  }
+  &-dots {
+    position: absolute;
+    top: 0;
+    right: 40px;
+  }
+}
+.contact {
+  @import './form';
+}

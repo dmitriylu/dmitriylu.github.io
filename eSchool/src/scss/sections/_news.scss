@@ -1,0 +1,22 @@
+.news {
+  padding-bottom: 100px;
+  padding-top: 38px;
+}
+.news__dots{
+  right: -27px;
+  bottom: 21px;
+}
+.news__inner{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.news__item{
+  width: 33.33%;
+  padding: 0 12px;
+  display: flex;
+  margin-bottom: 30px;
+}
+@import './card';
+

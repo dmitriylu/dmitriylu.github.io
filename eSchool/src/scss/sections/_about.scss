@@ -1,0 +1,33 @@
+.about{
+  padding-top: 180px;
+  padding-bottom: 75px;
+  .section-title{
+    margin-bottom: 90px;
+  }
+}
+.about__inner{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.about__img{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  img {
+    margin-bottom: 44px;
+  }
+}
+.about__link{
+  padding-right: 43px;
+}
+.about__text{
+  max-width: 615px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 10px 76.5px 13.5px rgba(42, 45, 46, 0.1);
+  border-radius: 10px;
+  padding: 60px 50px 70px 50px;
+  margin-left: -45px;
+  margin-top: 50px;
+}
+
