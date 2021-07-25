@@ -1,0 +1,26 @@
+.offer {
+  color: #fff;
+}
+.offer__images {
+  display: flex;
+  flex-wrap: wrap;
+  &-item {
+    flex-basis: 25%;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+.offer__content{
+  background-color: $color-pimary;
+  padding-top: 20px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+.offer__title{
+  margin-bottom: 40px;
+}
+.offer__text{
+  margin-bottom: 40px;
+}

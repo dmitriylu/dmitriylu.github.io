@@ -1,0 +1,33 @@
+.footer{
+  background-color: $bg-color;
+  color: #fff;
+  padding: 75px 0 45px;
+}
+.footer__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer__item{
+  margin-bottom: 30px;
+}
+.footer__logo {
+  margin-bottom: 20px;
+}
+.footer__menu{ 
+  @import './menu';
+}
+
+.footer__social{
+  padding-left: 10px;
+  &-link {
+    margin-right: 20px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+.footer__copyright{
+  font-size: 14px;
+}

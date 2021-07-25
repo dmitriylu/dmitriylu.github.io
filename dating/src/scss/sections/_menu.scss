@@ -1,0 +1,43 @@
+
+// .menu {
+
+// }
+.menu-list {
+  display: flex;
+  &__item {
+    @include font ($font-primary,18,600);
+    text-transform: uppercase;
+    margin-left: 50px;
+  }
+  &__link {
+    &:hover {
+      color: $color-pimary;
+    }
+  }
+  &__link.active {
+    color: $color-pimary;
+  }
+  &__link,
+  &__link.active{
+    transition: all 0.3s ease;
+    position: relative;
+    padding-bottom: 2px;
+    &::after{
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      background-color: $color-pimary;
+      bottom: -4px;
+      left: 0;
+      transition: all 0.3s ease;
+      transform: scale(0);
+    }
+  }
+}
+.menu-list__link:hover,
+.menu-list__link.active{
+  &::after{
+    transform: scale(1);
+  }
+}

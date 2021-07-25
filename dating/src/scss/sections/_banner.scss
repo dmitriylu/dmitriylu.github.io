@@ -1,0 +1,19 @@
+.banner {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.banner__inner {
+  background-image: $bg-gradiend;
+  padding: 100px 0;
+}
+.banner__title {
+  @include font ($font-primary,38,700);
+  max-width: 570px;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  margin: 0 auto 50px;
+  span {
+    font-size: 28px;
+  }
+}

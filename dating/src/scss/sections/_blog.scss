@@ -1,0 +1,44 @@
+.blog {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.blog__title{
+  margin-bottom: 21px;
+}
+.blog__text {
+  margin-bottom: 70px;
+}
+.blog-list{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  &__item{
+    flex-basis: 50%;
+    margin-bottom: 70px;
+    display: flex;
+  }
+}
+.blog__adivice{
+  max-width: 442px;
+  margin: 0 auto;
+  padding: 10px;
+  box-shadow: 0 0 10px $overlay;
+  border-radius: 8px;
+  &-content {
+    padding: 0 20px;
+  }
+  &-img{
+    margin-bottom: 16px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  &-title{
+    color: $color-pimary;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+  }
+  &-text{
+    font-size: 15px;
+    padding-bottom: 16px;
+  }
+}

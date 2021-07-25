@@ -1,0 +1,33 @@
+.contact {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.contact__title{
+  margin-bottom: 100px;
+}
+.contact__inner{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.contact__item{
+  flex-basis: 50%;
+  margin-bottom: 70px;
+  padding: 15px;
+  &-wrapper{
+    max-width: 380px;
+    margin: 0 auto;
+  }
+  &-title{
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  &-text{
+    font-size: 14px;
+    line-height: 1.7em;
+    span {
+      color: $color-pimary;
+    }
+  }
+}
